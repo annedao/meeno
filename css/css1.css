@@ -57,28 +57,23 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 
 #date{
 	font-size: 35px;
-	font-family: 'header';
-	text-align: center;
-	margin-top: 100px;
+	text-orientation: sideways;
 }
 
 #time{
 	font-size: 45px;
-	font-family: 'header';
 	text-align: center;
 	margin-top: 60px;
 }
 
 #weather{
 	font-size: 20px;
-	font-family: 'text';
 	text-align: center;
 	margin-top: 70px;
 }
 
 #mood{
 	font-size: 20px;
-	font-family: 'header';
     position: fixed;
     bottom: 0;
     right: 0;
@@ -86,7 +81,6 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 
 #todo{
 	font-size: 20px;
-	font-family: 'header';
 	position: absolute;
     top: 10px;
     left: 10px;
@@ -94,7 +88,6 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 
 #quote{
 	font-size: 20px;
-	font-family: 'text';
 	text-align: center;
 	position:fixed;
 	left:0px;
