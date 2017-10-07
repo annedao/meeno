@@ -1,3 +1,5 @@
+var colVal = ["#e3e0f6", "#fce3e1", "#ffefd5", "#cd8c95", "#87ceff", "#deb3b0", "#eef3f4", "#ffb140", "#e6fff2", "#e6f2ff", "#ffebcc", "#ffdccc", "#eee6ff", "#e0ebeb", "#ff9999", "#D96F58", "#E8D0CA", "#FEFFDD", "#DDF4FF"];
+
 
 window.onload = function(){
 	loadAll();
@@ -27,6 +29,8 @@ function loadAll(){
 	console.log(findTime());
 	document.getElementById("time").innerHTML = findTime();
 	document.getElementById("date").innerHTML = findDay()+ "     " + findDate();
+	var element = document.getElementsByTagName("body").item(0);
+	element.style.backgroundColor = colVal[Math.floor(Math.random() * colVal.length)];
 
 
 	//based on the css file from link.href, go into the css file and edit 
