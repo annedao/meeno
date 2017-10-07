@@ -4,6 +4,7 @@ window.onload = function(){
 
 function loadAll(){
 	link.href = findFormat();
+	//based on the css file from link.href, go into the css file and edit 
 	document.getElementById("header").style.
 
 }
