@@ -56,20 +56,20 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 }
 
 #date{
-	font-size: 35px;
-	text-orientation: sideways;
+	font-size: 20px;
+	writing-mode: vertical-rl;
+  	text-orientation: upright;
+  	margin-top: 50px;
 }
 
 #time{
 	font-size: 45px;
 	text-align: center;
-	margin-top: 60px;
 }
 
 #weather{
 	font-size: 20px;
 	text-align: center;
-	margin-top: 70px;
 }
 
 #mood{
@@ -83,15 +83,13 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 	font-size: 20px;
 	position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
 }
 
 #quote{
 	font-size: 20px;
+	top: 0;
+	left: 0;
+	width: 100%; 
 	text-align: center;
-	position:fixed;
-	left:0px;
-	bottom:0px;
-	height:30px;
-	width:100%;
-	}
+}
