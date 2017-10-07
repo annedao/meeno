@@ -1,19 +1,77 @@
+@font-face{
+	font-family: 'Georgina';
+	src: url('../assets/fonts/headers/georgina/GeorginaDemo-Regular.ttf');
+}
+@font-face{
+font-family: 'De Rotterdam';
+src: url('../assets/fonts/headers/de_rotterdam/DeRotterdamDemo-Regular.otf');
+}
+@font-face{
+font-family: 'Made Waffle Soft';
+src: url('../assets/fonts/headers/made_waffle_soft/MMADE_Waffle_Soft PERSONAL_USE.otf');
+}
+@font-face{
+font-family: 'Nonchalance';
+src: url('../assets/fonts/headers/nonchalance/Nonchalance_Bold.otf');
+}
+@font-face{
+font-family: 'Nova';
+src: url('../assets/fonts/headers/nova2/NOVABOLD.otf');
+}
+@font-face{
+font-family: 'Odin';
+src: url('../assets/fonts/headers/odin_rounded/Odin_Rounded_Bold.otf');
+}
+@font-face{
+font-family: 'Tommy Hilfiger';
+src: url('../assets/fonts/headers/tommy_hilfiger/TOMMY___.TTF');
+}
+@font-face{
+font-family: 'Cafe Brewery';
+src: url('../assets/fonts/text/cafe_brewery/cafe_brewery.ttf');
+}
+@font-face{
+font-family: 'Gravity';
+src: url('../assets/fonts/text/gravity/Gravity-Light.otf');
+}
+@font-face{
+font-family: 'Ormont';
+src: url('../assets/fonts/text/ormont/Ormont_Light.otf');
+}
+@font-face{
+font-family: 'Passion';
+src: url('../assets/fonts/text/passion_sans_pd/PassionSansPDac-Light.ttf');
+}
+@font-face{
+font-family: 'Slender Grey';
+src: url('../assets/fonts/text/slendergrey/Slendergreyregular.ttf');
+}
+@font-face{
+font-family: 'Light Font';
+src: url('../assets/fonts/text/the_light_font/TheLightFont.ttf');
+}
+@font-face{
+font-family: 'Vintage Straps';
+src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
+}
+
 #date{
-	
+	font-size: 16px;
+	font-family: 'Georgina';
 }
 
 #time{
-	
+	font-size: 16px;
 }
 
 #weather{
-	
+	font-size: 16px;
 }
 
 #mood{
-	
+	font-size: 16px;
 }
 
 #todo{
-	
+	font-size: 16px;
 }
