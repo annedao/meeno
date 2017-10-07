@@ -26,7 +26,7 @@ function loadAll(){
 	document.getElementsByTagName("link").item(0).setAttribute('href', format);
 	console.log(findTime());
 	document.getElementById("time").innerHTML = findTime();
-	document.getElementById("date").innerHTML = findDay() + findDate();
+	document.getElementById("date").innerHTML = findDay()+ "     " + findDate();
 
 
 	//based on the css file from link.href, go into the css file and edit 
