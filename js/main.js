@@ -3,17 +3,21 @@ var quotes = ["Only I can change my life. No one can do it for me.",
 "Stay positive and happy. Work hard and do not give up hope. Be open to criticism and keep learning. Surround yourself with happy, warm and genuine people. -Tena Desae", 
 "The art of being happy lies in the power of extracting happiness from common things. -Henry Ward Beecher",
  "All our dreams can come true if we have the courage to pursue them. -Walt Disney", 
- "Opportunities don’t happen, you create them. -Chris Grosser", 
- "I have not failed. I’ve just found 10,000 ways that won’t work. -Thomas A. Edison", 
- "Don’t be afraid to give up the good to go for the great. -John D. Rockefeller", 
- "Do one thing every day that scares you.", "Life is not about finding yourself. Life is about creating yourself. -Lolly Daskal", "Do anything, but let it produce joy. - Walt Whitman", 
+ "Opportunities do not happen, you create them. -Chris Grosser", 
+ "I have not failed. I have just found 10,000 ways that will not work. -Thomas A. Edison", 
+ "Do not be afraid to give up the good to go for the great. -John D. Rockefeller", 
+ "Do one thing every day that scares you.", 
+ "Life is not about finding yourself. Life is about creating yourself. -Lolly Daskal", 
+ "Do anything, but let it produce joy. - Walt Whitman", 
  "Success is liking yourself, liking what you do, and liking how you do it. -Maya Angelou",
  "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy. -Tony Robbins", 
- "Don’t let the fear of losing be greater than the excitement of winning. -Robert Kiyosaki", 
+ "Do not let the fear of losing be greater than the excitement of winning. -Robert Kiyosaki", 
  "To be successful you must accept all challenges that come your way. You can not just accept the ones you like. -Mike Gafka"];
 
 
 var shadesOfGrey = ["#000000", "#151515", "#242424", "#494949", "#636262", "#212121", "#2B2B2B", "#555555", "#737373", "#3D3D3D", "#4A4A4A", "#0D0D0D"];
+
+
 window.onload = function(){
 	loadAll();
 	//findTime();
@@ -23,7 +27,7 @@ window.onload = function(){
 function findFormat(){
 
 	//find a way to find the filenames in the cs
-	var files = ['main.css', 'css1.css'];
+	var files = ['main.css', 'css1.css', 'css2.css'];
 	//console.log(files.length);
 	var i = Math.floor(Math.random() * files.length);
 	console.log(i);
