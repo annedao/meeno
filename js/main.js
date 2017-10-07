@@ -1,13 +1,32 @@
+// var requirejs = require("r.js");
+
+// requirejs.config({
+//     //Pass the top-level main.js/index.js require
+//     //function to requirejs so that node modules
+//     //are loaded relative to the top-level JS file.
+//     nodeRequire: require
+// });
+
+// requirejs(['foo', 'bar'],
+// function   (foo,   bar) {
+//     //foo and bar are loaded according to requirejs
+//     //config, but if not found, then node's require
+//     //is used to load the module.
+// });
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+} 
+//Get latitude and longitude;
+function successFunction(position) {
+    var lat = position.coords.latitude;
+    var long = position.coords.longitude;
+}
+
 window.onload = function(){
-	findAll();
+	loadAll();
 };
 
-function loadAll(){
-	link.href = findFormat();
-	//based on the css file from link.href, go into the css file and edit 
-	document.getElementById("header").style.
-
-}
 
 function findFormat(){
 
@@ -24,6 +43,17 @@ function findFormat(){
 	return file;
 
 }
+
+function loadAll(){
+	var format = findFormat();
+	document.getElementsByTagName("link").item(0).setAttribute('href', format);
+
+
+	//based on the css file from link.href, go into the css file and edit 
+	//document.getElementById("header").style.
+
+};
+
 // function randomHeaderFont(){
 // 	//go to the font/header folder
 // 	//look at the list of directories
