@@ -13,7 +13,7 @@
   "browser_action": {
     "default_icon": "assets/images/ddoski4.png", 
     "default_title": "Meeno", 
-    //"default_popup": "index.html"
+    "default_popup": "html/index.html"
 
   },
   //"page_action": {...},
@@ -26,7 +26,7 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "background_page": "index.html",
+  "background_page": "html/index.html",
   // "chrome_settings_overrides": {
 
   // },
@@ -37,7 +37,7 @@
     }
   },
   "chrome_url_overrides": {
-    "newtab": "index.html"
+    "newtab": "html/index.html"
   }
   // "commands": {...},
   // "content_capabilities": ...,
