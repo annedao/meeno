@@ -1,11 +1,26 @@
 {
 	"name": {
 		"message": "Welcome to Meeno",
-		"description": "Meeno: increasing heapiness"
+		"description": "Meeno: increasing heapiness!"
 	}, 
 	"date": {
-		"message": "Hello world", 
-	}
+		"message": "We are unable to display the data today.", 
+	},
 	
+	"time": {
+		"message": "We are unable to display the time today.", 
+	},
+
+	"weather": {
+		"message": "We are unable to display the weather today.", 
+	},
+
+	"mood": {
+		"message": "We are unable to detect your mood today. Please have a great day!", 
+	},
+
+	"todo": {
+		"message": "We are unable to display your todo list today.", 
+	}
 
 }
