@@ -62,16 +62,20 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 
 #time{
 	font-size: 16px;
+	font-family: 'Passion';
 }
 
 #weather{
 	font-size: 16px;
+	font-family: 'Vintage Straps';
 }
 
 #mood{
 	font-size: 16px;
+	font-family: 'Light Font';
 }
 
 #todo{
 	font-size: 16px;
+	font-family: 'Cafe Brewery';
 }
