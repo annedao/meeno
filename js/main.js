@@ -14,17 +14,18 @@
 //     //is used to load the module.
 // });
 
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
-} 
-//Get latitude and longitude;
-function successFunction(position) {
-    var lat = position.coords.latitude;
-    var long = position.coords.longitude;
-}
+// if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+// } 
+// //Get latitude and longitude;
+// function successFunction(position) {
+//     var lat = position.coords.latitude;
+//     var long = position.coords.longitude;
+// }
 
 window.onload = function(){
 	loadAll();
+	findTime();
 };
 
 
@@ -95,6 +96,19 @@ function loadAll(){
 
 //variables
 function findTime(){
+
+	var currentTime = new Date();
+	var month = currentTime.getMonth() + 1;
+	var day = currentTime.getDate();
+	var yr = currentTime.getFullYear();
+	var hours = currentTime.getHours();
+	var minutes = currentTime.getMinutes();
+
+	if (minutes < 10) {
+	    minutes = "0" + minutes;
+	}
+
+	console.log(month + "/" + day + "/" + yr + ", " +hours + ":" + minutes);
 
 }
 function findLocation(){
