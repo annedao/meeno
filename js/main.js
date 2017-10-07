@@ -29,12 +29,8 @@ window.onload = function(){
 function findFormat(){
 
 	//find a way to find the filenames in the cs
-<<<<<<< HEAD
 	var files = ['main.css', 'css1.css', 'css2.css'];
 	//console.log(files.length);
-=======
-	var files = ['main.css', 'css1.css'];
->>>>>>> f529ed87f2f8f85f25dd88d0ac9cc576ce7e7616
 	var i = Math.floor(Math.random() * files.length);
 	console.log(i);
 	var file = "../css/" + files[i];
