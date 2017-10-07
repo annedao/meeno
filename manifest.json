@@ -2,7 +2,7 @@
   // Required
   "manifest_version": 2,
   "name": "meeno",
-  "version": "1.0",
+  "version": "0.1",
 
   // Recommended
   "default_locale": "en",
@@ -12,8 +12,8 @@
   // Pick one (or none)
   "browser_action": {
     "default_icon": "assets/images/ddoski4.png", 
-    "default_title": "Meeno", 
-    "default_popup": "html/index.html"
+    "default_title": "Meeno"
+    //"default_popup": "html/index.html"
 
   },
   //"page_action": {...},
@@ -23,7 +23,7 @@
   //"automation": ...,
   "background": {
     // Recommended
-    "scripts": ["background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "background_page": "html/index.html",
