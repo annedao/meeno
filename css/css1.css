@@ -1,10 +1,12 @@
+/*headers*/
+
 @font-face{
-	font-family: 'Georgina';
-	src: url('../assets/fonts/headers/georgina/GeorginaDemo-Regular.ttf');
+font-family: 'francoisone';
+src: url('../assets/fonts/headers/francoisone/FrancoisOne.ttf');
 }
 @font-face{
-font-family: 'De Rotterdam';
-src: url('../assets/fonts/headers/de_rotterdam/DeRotterdamDemo-Regular.otf');
+font-family: 'montserrat';
+src: url('../assets/fonts/headers/montserrat/Montserrat-Bold.ttf');
 }
 @font-face{
 font-family: 'Made Waffle Soft';
@@ -15,44 +17,38 @@ font-family: 'Nonchalance';
 src: url('../assets/fonts/headers/nonchalance/Nonchalance_Bold.otf');
 }
 @font-face{
-font-family: 'Nova';
-src: url('../assets/fonts/headers/nova2/NOVABOLD.otf');
-}
-@font-face{
-font-family: 'Odin';
+font-family: 'odin_rounded';
 src: url('../assets/fonts/headers/odin_rounded/Odin_Rounded_Bold.otf');
 }
 @font-face{
-font-family: 'Tommy Hilfiger';
-src: url('../assets/fonts/headers/tommy_hilfiger/TOMMY___.TTF');
+font-family: 'quando';
+src: url('../assets/fonts/headers/quando/Quando-Regular.ttf');
+}
+
+
+/*text*/
+
+@font-face{
+font-family: 'didactgothic';
+src: url('../assets/fonts/text/didactgothic/DidactGothic.ttf');
 }
 @font-face{
-font-family: 'Cafe Brewery';
-src: url('../assets/fonts/text/cafe_brewery/cafe_brewery.ttf');
-}
-@font-face{
-font-family: 'Gravity';
-src: url('../assets/fonts/text/gravity/Gravity-Light.otf');
+font-family: 'hind';
+src: url('../assets/fonts/text/hind/Hind-Light.ttf');
 }
 @font-face{
 font-family: 'Ormont';
 src: url('../assets/fonts/text/ormont/Ormont_Light.otf');
 }
 @font-face{
-font-family: 'Passion';
+font-family: 'judson';
+src: url('../assets/fonts/text/judson/Judson-Regular.ttf');
+}
+url('../assets/fonts/text/slendergrey/Slendergreyregular.ttf');
+}
+@font-face{
+font-family: 'passion_sans_pd';
 src: url('../assets/fonts/text/passion_sans_pd/PassionSansPDac-Light.ttf');
-}
-@font-face{
-font-family: 'Slender Grey';
-src: url('../assets/fonts/text/slendergrey/Slendergreyregular.ttf');
-}
-@font-face{
-font-family: 'Light Font';
-src: url('../assets/fonts/text/the_light_font/TheLightFont.ttf');
-}
-@font-face{
-font-family: 'Vintage Straps';
-src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 }
 
 #date{
@@ -66,10 +62,9 @@ src: url('../assets/fonts/text/vintage_straps/Vintage_Straps_light.ttf');
 
 #time{
 	font-size: 45px;
+	font-family: 'header';
 	text-align: center;
-	clear: left;
-	top: 0;
-	margin-top: -10%;
+	margin-top: 60px;
 }
 
 #weather{

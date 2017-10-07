@@ -15,8 +15,8 @@ var quotes = ["Only I can change my life. No one can do it for me.",
  "To be successful you must accept all challenges that come your way. You can not just accept the ones you like. -Mike Gafka"];
 
 
-var texts = ["'Cafe Brewery'", "'Gravity'", "'Ormont'", "'Passion'", "'Slender Grey'", "'Light Font'", "'Vintage Straps'"];
-var headers = ["'Georgina'", "'De Rotterdam'", "'Made Waffle Soft'", "'Nonchalance'", "'Nova'", "'Odin'", "'Tommy Hilfiger'"];
+var texts = ["'didactgothic'", "'hind'", "'ormont'", "'judson'", "'passion_sans_pd'"];
+var headers = ["'francoisone'", "'made_waffle_soft'", "'montserrat'", "'nonchalance'","'odin_rounded'", "'quando'"];
 var shadesOfGrey = ["#000000", "#151515", "#242424", "#494949", "#636262", "#212121", "#2B2B2B", "#555555", "#737373", "#3D3D3D", "#4A4A4A", "#0D0D0D"];
 
 
