@@ -13,6 +13,8 @@ var quotes = ["Only I can change my life. No one can do it for me.",
  "To be successful you must accept all challenges that come your way. You can not just accept the ones you like. -Mike Gafka"];
 
 
+var texts = ["'Cafe Brewery'", "'Gravity'", "'Ormont'", "'Passion'", "'Slender Grey'", "'Light Font'", "'Vintage Straps'"];
+var headers = ["'Georgina'", "'De Rotterdam'", "'Made Waffle Soft'", "'Nonchalance'", "'Nova'", "'Odin'", "'Tommy Hilfiger'"];
 var shadesOfGrey = ["#000000", "#151515", "#242424", "#494949", "#636262", "#212121", "#2B2B2B", "#555555", "#737373", "#3D3D3D", "#4A4A4A", "#0D0D0D"];
 window.onload = function(){
 	loadAll();
@@ -24,14 +26,9 @@ function findFormat(){
 
 	//find a way to find the filenames in the cs
 	var files = ['main.css', 'css1.css'];
-	//console.log(files.length);
 	var i = Math.floor(Math.random() * files.length);
 	console.log(i);
 	var file = "../css/" + files[i];
-	//console.log(file);
-
-
-
 	return file;
 
 }
@@ -41,13 +38,13 @@ function loadAll(){
 	document.getElementsByTagName("link").item(0).setAttribute('href', format);
 	console.log(findTime());
 	document.getElementById("time").innerHTML = findTime();
-	document.getElementById("date").innerHTML = findDay()+ "     " + findDate();
+	document.getElementById("date").innerHTML = (findDay())+ "     " + findDate();
 
 	var element = document.getElementsByTagName("body").item(0);
 	element.style.backgroundColor = colVal[Math.floor(Math.random() * colVal.length)];
 	element.style.color = shadesOfGrey[Math.floor(Math.random() * shadesOfGrey.length)];
 
-
+	loadFonts(element);
 
 	var i = Math.floor(Math.random() * quotes.length);
 	document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
@@ -68,7 +65,7 @@ function findDay(){
 
 function findDate(){
 	var currentTime = new Date();
-	var month = currentTime.getMonth();
+	var month = currentTime.getMonth() + 1;
 	var day = currentTime.getDate();
 	var yr = currentTime.getFullYear();
 	return (month + "." + day + "." + yr);
@@ -93,15 +90,29 @@ function findTime(){
 	return (currentTime.getHours() + ":" + currentTime.getMinutes());
 
 }
+
+function loadFonts(){
+	var header = headers[Math.floor(Math.random() * headers.length)];
+	console.log(header);
+	document.getElementById("date").style.fontFamily = header;
+	document.getElementById("time").style.fontFamily = header;
+	document.getElementById("mood").style.fontFamily = header;
+	document.getElementById("goals").style.fontFamily = header;
+
+	var text = texts[Math.floor(Math.random() * texts.length)];
+	document.getElementById("weather").style.fontFamily = text;
+	document.getElementById("quote").style.fontFamily = text;
+	
+
+	
+}
 function findLocation(){
 
 }
 function findWeather(){
 
 }
-function findQuote(){
 
-}
 
 function moodSuggestion(){
 

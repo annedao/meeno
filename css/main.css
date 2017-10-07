@@ -1,3 +1,5 @@
+/*headers*/
+
 @font-face{
 	font-family: 'Georgina';
 	src: url('../assets/fonts/headers/georgina/GeorginaDemo-Regular.ttf');
@@ -26,6 +28,10 @@ src: url('../assets/fonts/headers/odin_rounded/Odin_Rounded_Bold.otf');
 font-family: 'Tommy Hilfiger';
 src: url('../assets/fonts/headers/tommy_hilfiger/TOMMY___.TTF');
 }
+
+
+/*text*/
+
 @font-face{
 font-family: 'Cafe Brewery';
 src: url('../assets/fonts/text/cafe_brewery/cafe_brewery.ttf');
