@@ -1,0 +1,21 @@
+var colVal = ["#e3e0f6", "#fce3e1", "#ffefd5", "#cd8c95", "#87ceff", "#deb3b0", "#eef3f4", "#ffb140", "#e6fff2", "#e6f2ff", "#ffebcc", "#ffdccc", "#eee6ff", "#e0ebeb", "#ff9999", "#D96F58", "#E8D0CA", "#FEFFDD", "#DDF4FF"];
+
+light purple
+glossier pink
+pale yellow
+dusty muted pink
+sky blue
+pale dusty pink
+pale perriwinkle
+mustard yellow
+light mint green
+v v light blue
+flesh
+peach
+lilac
+light grey-toned blue
+pinky salmon
+light brick red
+greyish pink
+baby yellow
+baby bluuuuu
